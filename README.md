@@ -37,7 +37,7 @@ The pipeline mirrors real clinical signal-processing workflows: filtering noisy 
 
 ## Results
 
-- Trained and evaluated across 10 real patient records (7 successfully processed in the demo run, one record automatically skipped with graceful error handling)
+- - Trained and evaluated across 10 real patient records, all successfully downloaded and processed
 - Evaluation focused on **recall per arrhythmia type** rather than aggregate accuracy, due to severe class imbalance toward normal beats
 - Full classification report, confusion matrix, and feature importance rankings included in the notebook
 ![Confusion Matrix](confusion_matrix.png)
